@@ -1,0 +1,233 @@
+    body {
+        background-image: url(images/python_background.png);
+        background-attachment: fixed;
+        font-family: 'Roboto', sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    /**HEADER*****************************************************************************/
+    
+    div.header {
+        position: fixed;
+        float: right;
+        top: 0;
+        background-color: rgb(230, 230, 230);
+        height: 60px;
+        width: 100%;
+    }
+    
+    h1.header {
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+        height: 43px;
+    }
+    
+    h1.header a {
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        text-decoration: none;
+        margin-left: 31px;
+        color: black;
+    }
+    
+    h1.header a:hover {
+        font-size: 32px;
+        transition: 0.3s;
+        text-shadow: 0.3em 0.3em 5px rgba(122, 122, 122, 0.5);
+    }
+    
+    nav {
+        height: 450px;
+        position: fixed;
+        margin-left: -15px;
+        width: 250px;
+        margin-top: 80px;
+        display: block;
+        overflow-y: scroll;
+    }
+    
+    ul.menu {
+        list-style: none;
+    }
+    
+    .menu a {
+        font-family: "Roboto Slab", serif;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px 15px 5px 15px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .menu a:hover {
+        transition: 0.3s;
+        color: rgb(0, 107, 157);
+        padding: 5px 25px 5px 17px;
+    }
+    
+    .menu li:nth-child(2n) a:hover {
+        transition: 0.3s;
+        color: rgb(135, 135, 135);
+        padding: 5px 25px 5px 17px;
+    }
+    /**MAIN*****************************************************************************/
+    
+    div.main {
+        width: 68%;
+        margin: 0 auto;
+        margin-right: 180px;
+    }
+    
+    div.example {
+        background-color: rgba(192, 192, 200, 0.6);
+        box-shadow: 0.3em 0.3em 5px rgba(122, 122, 122, 0.5);
+        font-size: 15px;
+        border: 0.1px solid rgba(232, 230, 230, 0.0);
+        border-radius: 10px;
+        margin-bottom: 60px;
+        padding: 5px;
+    }
+    
+    h3.theme {
+        text-align: center;
+        font-size: 25px;
+        border-top: 70px solid rgba(230, 230, 230, 0.0);
+    }
+    /*решение проблемы с разной высотой при переходе по якорю внутри страницы*/
+    
+    .theme_variable {
+        text-align: center;
+        font-size: 25px;
+        border-top: 80px solid rgba(230, 230, 230, 0.0);
+    }
+    
+    p img.info {
+        width: 20px;
+        height: 20px;
+    }
+    
+    div.issue {
+        background-color: rgba(132, 211, 229, 0.7);
+        box-shadow: 0.3em 0.3em 5px rgba(122, 122, 122, 0.5);
+        font-size: 15px;
+        border: 1px solid rgba(132, 211, 229, 0.0);
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    
+    p img.question {
+        width: 20px;
+        height: 20px;
+    }
+    
+    img.scheme_if {
+        float: right;
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+    }
+    
+    img.scheme_if_else {
+        float: right;
+        width: 550px;
+        height: 350px;
+        margin: 10px;
+    }
+    
+    img.scheme_if_elif_else {
+        float: right;
+        width: 600px;
+        height: 600px;
+        margin: 10px;
+    }
+    
+    img.loop_while {
+        float: right;
+        width: 500px;
+        height: 300px;
+        margin: 10px;
+    }
+    
+    img.loop_for {
+        float: right;
+        width: 400px;
+        height: 500px;
+        margin: 10px;
+    }
+    
+    img.question_picture {
+        float: right;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    
+    img.step_length {
+        float: right;
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+    }
+    
+    cite {
+        font-size: 0.8em;
+    }
+    
+    pre {
+        font-family: "Roboto", sans-serif;
+    }
+    
+    i {
+        font-weight: bold;
+    }
+    
+    table.question {
+        margin-top: 15px;
+        border: 1px solid rgba(132, 211, 229, 0.0);
+        border-radius: 10px;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .question th {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .question td {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    table.list {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .list th {
+        border-bottom: 3px solid black;
+    }
+    
+    .list td {
+        border-bottom: 1px solid black;
+    }
+
+    table.dictionary {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .dictionaryst th {
+        border-bottom: 3px solid black;
+    }
+    
+    .dictionary td {
+        border-bottom: 1px solid black;
+    }
